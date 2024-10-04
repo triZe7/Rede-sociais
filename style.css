@@ -5,6 +5,11 @@
     --primary-color:#FFE1FF;
     --secundary-color:#6C48C5;
     --font:"Dancing+Script",sans-serif;
-    
+}
+
+body{
+    background-color: var(--big-color);
+    color: var(--primary-color);
+    font-family: var(--font);
     
 }
