@@ -1,14 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
 
 :root{
-    --big-color:#000000;
+    --bg-color:#000000;
     --primary-color:#FFE1FF;
-    --secundary-color:#6C48C5;
+    --secundary-color:#00a10d;
     --font:"Dancing+Script",sans-serif;
 }
 
 body{
-    background-color: var(--big-color);
+    background-color: var(--bg-color);
     color: var(--primary-color);
     font-family: var(--font);
     height: 100vh;
@@ -17,5 +17,11 @@ body{
 
 header{
     background-color: var(--primary-color);
-    
+    text-align: center;
+}
+
+h1{
+    font-size: 2rem;
+    color: var(--bg-color);
+    font-weight: 700;
 }
